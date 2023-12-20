@@ -5,11 +5,15 @@ export const PIXEL_SIZE = 32;
 
 export const COLORS_NAMES = {
   red: "#FF0000",
+  redlight: "#FFAAAA",
   green: "#00FF00",
+  greenlight: "#AAFFAA",
   blue: "#0000FF",
+  bluelight: "#AAAAFF",
   yellow: "#FFFF00",
   brightBlue: "#00FFFF",
   pink: "#FF00FF",
+  gray: "#AAAAAA",
   white: "#FFFFFF",
   black: "#000000",
 } as const;
