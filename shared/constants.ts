@@ -1,5 +1,5 @@
-export const WIDTH = 50;
-export const HEIGHT = 50;
+export const WIDTH = 700;
+export const HEIGHT = 700;
 
 export const PIXEL_SIZE = 5;
 
