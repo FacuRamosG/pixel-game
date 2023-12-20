@@ -1,7 +1,7 @@
-export const WIDTH = 350;
-export const HEIGHT = 350;
+export const WIDTH = 100;
+export const HEIGHT = 60;
 
-export const PIXEL_SIZE = 5;
+export const PIXEL_SIZE = 12;
 
 export const COLORS_NAMES = {
   red: "#FF0000",
