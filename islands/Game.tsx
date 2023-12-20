@@ -11,9 +11,9 @@ export function Game(
   const grid = useSignal<Color[]>(initialTiles);
 
   return (
-    <>
+    <div class='flex justify-center items-center'>
       <Tiles grid={grid} selectedColor={selected.value} />
       <ColorPicker selected={selected} />
-    </>
+    </div>
   );
 }
