@@ -16,6 +16,10 @@ export async function updateGrid(
   return versionstamp;
 }
 
+export async function deleteGrid(index: number): Promise<void> {
+  await db.delete([KEYS.tiles, index]);
+}
+
 export const getGrid = async (): Promise<Grid> => {
   const tiles = new Array(WIDTH * HEIGHT).fill(COLORS_NAMES.green);
   const versionstamps = new Array(WIDTH * HEIGHT).fill("");
